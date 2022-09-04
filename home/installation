@@ -1,0 +1,5 @@
+yay -S zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chsh
+yay -S zsh-theme-powerlevel10k
+echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
